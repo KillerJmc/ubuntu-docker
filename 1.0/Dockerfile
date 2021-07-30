@@ -7,12 +7,8 @@ ENV HOME /home
  
 WORKDIR $HOME
 
-# copy oh-my-zsh config
-COPY init/.oh-my-zsh $HOME/.oh-my-zsh
-COPY init/.zshrc $HOME
-
-# copy .bashrc 
-COPY init/.myzshrc $HOME
+# add oh-my-zsh
+ADD oh-my-zsh.tar.gz $HOME
 
 RUN \
     # set mirrors
@@ -31,7 +27,7 @@ RUN \
     apt install vim \
                 net-tools \
                 openjdk-16-jdk \
-		        mysql-server \
+		        mariadb-server \
     -y;
     
 # expose mysql on 3306 port
