@@ -1,0 +1,5 @@
+# source ~/.myzshrc
+alias c='clear'
+alias q='exit'
+alias ll='ls -a'
+alias h='echo "c\nq\nll"'
