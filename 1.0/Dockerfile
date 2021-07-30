@@ -20,7 +20,7 @@ RUN \
     # download zsh
     apt install zsh -y; \
     \
-    # set time zone
+    # set the time zone
     ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && apt install tzdata -y; \
     \
     # download other pkgs(vi, ifconfig, jdk, mysql) 
