@@ -2,7 +2,7 @@
 
 ## Quick reference
 
-+ [Find me on Docker Hub](https://hub.docker.com/repository/docker/killerjmc/ubuntu)
++ [Find me on Docker Hub](https://hub.docker.com/r/killerjmc/ubuntu)
 
 ## Description
 

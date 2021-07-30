@@ -2,7 +2,7 @@
 
 ## 链接
 
-+ [转到 Docker Hub](https://hub.docker.com/repository/docker/killerjmc/ubuntu)
++ [转到 Docker Hub](https://hub.docker.com/r/killerjmc/ubuntu)
 
 
 ## 介绍
